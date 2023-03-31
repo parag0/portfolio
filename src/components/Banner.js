@@ -7,7 +7,8 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative">
+      className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative"
+    >
       <div className="md:w-2/5 md:p-4">
         <img
           data-aos="flip-right"
@@ -21,7 +22,8 @@ const Banner = () => {
         className="md:w-3/6"
         data-aos="fade-right"
         data-aos-duration="1000"
-        data-aos-offset="100">
+        data-aos-offset="100"
+      >
         <div className="flex flex-col w-full mt-8">
           <b className="text-3xl text-gray-400 my-1 themeColor">Parag Jadhav</b>
 
@@ -51,7 +53,8 @@ const Banner = () => {
             <a
               href="https://stackoverflow.com/users/3157062/parag-jadhav"
               rel="noreferrer"
-              target="_blank">
+              target="_blank"
+            >
               <FontAwesomeIcon size="2xl" icon={faStackOverflow} />
             </a>
           </li>

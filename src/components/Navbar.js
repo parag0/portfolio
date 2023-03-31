@@ -1,7 +1,7 @@
 import logo from '../assets/logo.svg';
 
 export default function Navbar() {
-  const logoClick = (e) => {
+  const logoClick = () => {
     window.location.reload();
   };
 
@@ -13,8 +13,8 @@ export default function Navbar() {
             src={logo}
             className="App-logo w-28 rounded-full"
             alt="logo"
-            onClick={(e) => {
-              logoClick(e);
+            onClick={() => {
+              logoClick();
             }}
           />
         </a>
