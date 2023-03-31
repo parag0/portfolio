@@ -1,14 +1,12 @@
-import HonorCard from "./HonorCard.js";
+import HonorCard from './HonorCard.js';
 
-import hr from "../assets/curve-hr.svg";
+import hr from '../assets/curve-hr.svg';
 
 export default function Honors() {
   return (
     <div id="honors" className="mt-4 text-white">
       <h1 className="text-2xl font-bold">Honors & Awards</h1>
-      <p className="font-light text-gray-400">
-        Here are some of my honors and awards
-      </p>
+      <p className="font-light text-gray-400">Here are some of my honors and awards</p>
 
       <div className="flex flex-col md:flex-row mt-4 gap-5">
         <HonorCard
