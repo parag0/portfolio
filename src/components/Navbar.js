@@ -1,5 +1,5 @@
 import logo from "../assets/logo.svg";
-import resume from "../assets/resume.pdf";
+// import resume from "../assets/resume.pdf";
 
 export default function Navbar() {
   return (
@@ -28,14 +28,14 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-        <a
+        {/* <a
           href={resume}
           rel="noreferrer"
           target="_blank"
           className=" bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4"
         >
           Resume
-        </a>
+        </a> */}
       </div>
     </div>
   );
