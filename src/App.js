@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Honors from './components/Honors';
 import Certs from './components/Certs';
 import Footer from './components/Footer';
+import Background from './components/Background';
 import 'aos/dist/aos.css';
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
         </div>
       ) : (
         <div>
+          <Background />
           <Navbar />
           <Banner />
           <Skills />
