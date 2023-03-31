@@ -1,17 +1,17 @@
-import "./App.css";
-import { useEffect } from "react";
-import Navbar from "./components/Navbar";
-import Hiro from "./components/Hiro";
-import Skills from "./components/Skills";
-import Honors from "./components/Honors";
-import Certs from "./components/Certs";
-import Footer from "./components/Footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import './App.css';
+import { useEffect } from 'react';
+import Navbar from './components/Navbar';
+import Hiro from './components/Hiro';
+import Skills from './components/Skills';
+import Honors from './components/Honors';
+import Certs from './components/Certs';
+import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
-    document.title = "Parag Jadhav";
+    document.title = 'Parag Jadhav';
     AOS.init();
   }, []);
   return (
