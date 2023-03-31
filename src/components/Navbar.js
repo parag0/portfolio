@@ -1,11 +1,23 @@
 import logo from '../assets/logo.svg';
-// import resume from "../assets/resume.pdf";
 
 export default function Navbar() {
+  const logoClick = (e) => {
+    window.location.reload();
+  };
+
   return (
     <div className="fixed z-50 bg-dark-500 w-full top-0 left-0 px-8 py-4 lg:px-20 xl:px-36">
       <div className="flex justify-between items-center text-white">
-        <img src={logo} className="App-logo w-28 rounded-full" alt="logo" />
+        <a href="#">
+          <img
+            src={logo}
+            className="App-logo w-28 rounded-full"
+            alt="logo"
+            onClick={(e) => {
+              logoClick(e);
+            }}
+          />
+        </a>
         <ul className="hidden md:flex">
           <li className="p-4">
             <a href="#home" className="hover:underline">
