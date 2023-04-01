@@ -33,7 +33,7 @@ const Banner = () => {
 
           <p className="text-md font-light text-gray-400 my-1">
             Full Stack developer having a total experience of 8 years (and some change) in
-            developing backend and front-end applications.
+            developing backend and front-end SaaS applications.
           </p>
           <p className="text-md font-light text-gray-400 my-1">
             I have worked on widely used cloud platforms - AWS, GCP, Azure. Experienced in agile
