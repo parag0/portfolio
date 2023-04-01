@@ -4,7 +4,7 @@ import HonorCard from './HonorCard.js';
 import hr from '../assets/curve-hr.svg';
 import ImageViewer from 'react-simple-image-viewer';
 import pslBravo from '../assets/awards/pslBravo.svg';
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 
 export default function Honors() {
   const [currentImage, setCurrentImage] = useState(0);

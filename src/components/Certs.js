@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 import ImageViewer from 'react-simple-image-viewer';
 
 import CertCard from './CertCard.js';

@@ -1,4 +1,4 @@
-import hr from '../assets/curve-hr.svg';
+// import hr from '../assets/curve-hr.svg';
 
 export default function Footer() {
   return (
