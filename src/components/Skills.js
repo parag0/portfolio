@@ -29,8 +29,7 @@ export default function Skills() {
 
   return (
     <div id="skills" className="mt-4 text-white">
-      <h1 className="text-2xl font-bold">Skills</h1>
-      <p className="font-light text-gray-400">Here are some of my skills</p>
+      <h1 className="text-2xl font-bold themeColor">Skills</h1>
 
       <div className="mt-4">
         <Slider {...settings}>

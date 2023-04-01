@@ -62,6 +62,7 @@ const Banner = () => {
           </li>
         </ul>
       </div>
+      <br/><br/>
       <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" />
     </div>
   );
