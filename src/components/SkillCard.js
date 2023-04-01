@@ -13,5 +13,4 @@ const SkillCard = (props) => {
     </div>
   );
 };
-
 export default SkillCard;
