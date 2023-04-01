@@ -1,7 +1,8 @@
 import HonorCard from './HonorCard.js';
 import hr from '../assets/curve-hr.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
 export default function Honors() {
   return (
     <div id="honors" className="mt-4 text-white">
