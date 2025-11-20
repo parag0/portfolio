@@ -29,11 +29,11 @@ export default function Navbar() {
               Skills
             </a>
           </li>
-          <li className="p-4">
+          {/* <li className="p-4">
             <a href="#honors" className="hover:underline">
               Honor & Awards
             </a>
-          </li>
+          </li> */}
           <li className="p-4">
             <a href="#certs" className="hover:underline">
               Certfications

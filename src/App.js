@@ -5,7 +5,7 @@ import AOS from 'aos';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import Skills from './components/Skills';
-import Honors from './components/Honors';
+// import Honors from './components/Honors';
 import Certs from './components/Certs';
 import Footer from './components/Footer';
 // import Background from './components/Background';
@@ -40,7 +40,7 @@ const App = () => {
           <Navbar />
           <Banner />
           <Skills />
-          <Honors />
+          {/* <Honors /> */}
           <Certs />
           <Footer />
         </div>

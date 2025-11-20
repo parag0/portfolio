@@ -26,12 +26,12 @@ const Banner = () => {
           <b className="text-3xl text-gray-400 my-1 themeColor">Parag Jadhav</b>
 
           <br />
-          <code className="text-xl my-1 text-gray-400">I&apos;m a &lt;Software Engineer/&gt;</code>
+          <code className="text-xl my-1 text-gray-400">&lt;Senior Software Engineer/&gt;</code>
           <br />
 
           <p className="text-md font-light text-gray-400 my-1">
-            Full Stack developer having a total experience of 8 years (and some change) in
-            developing backend and front-end SaaS applications.
+            Full Stack developer having a total experience of 11 years in developing backend and
+            front-end SaaS applications.
           </p>
           <p className="text-md font-light text-gray-400 my-1">
             I have worked on widely used cloud platforms - AWS, GCP, Azure. Experienced in agile
