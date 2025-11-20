@@ -26,9 +26,7 @@ const Banner = () => {
           <b className="text-3xl text-gray-400 my-1 themeColor">Parag Jadhav</b>
 
           <br />
-          <code className="text-xl my-1 text-gray-400">
-            I&apos;m a &lt;AWS Solutions Architect/&gt; &amp; <br /> &lt;Software Engineer/&gt;
-          </code>
+          <code className="text-xl my-1 text-gray-400">I&apos;m a &lt;Software Engineer/&gt;</code>
           <br />
 
           <p className="text-md font-light text-gray-400 my-1">
