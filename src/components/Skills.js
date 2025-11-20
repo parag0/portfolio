@@ -1,11 +1,11 @@
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import aws from '../assets/skills/aws.svg';
-import azure from '../assets/skills/azure.svg';
-import docker from '../assets/skills/docker.svg';
-import express from '../assets/skills/express.svg';
-import firebase from '../assets/skills/firebase.svg';
-import gcp from '../assets/skills/gcp.svg';
+// import azure from '../assets/skills/azure.svg';
+// import docker from '../assets/skills/docker.svg';
+// import express from '../assets/skills/express.svg';
+// import firebase from '../assets/skills/firebase.svg';
+// import gcp from '../assets/skills/gcp.svg';
 import git from '../assets/skills/git.svg';
 import hr from '../assets/curve-hr.svg';
 import mongodb from '../assets/skills/mongodb.svg';
@@ -16,7 +16,7 @@ import SkillCard from './SkillCard.js';
 import Slider from 'react-slick';
 import sql from '../assets/skills/sql.svg';
 import microservice from '../assets/skills/microservice.svg';
-import serverless from '../assets/skills/serverless.svg';
+// import serverless from '../assets/skills/serverless.svg';
 import springboot from '../assets/skills/springboot.svg';
 
 export default function Skills() {
